@@ -10,14 +10,6 @@ html {
 	scroll-padding-top: 6rem;
 }
 
-html.light article .prose {
-	--color-blue-950: hsl(223.64deg 57.89% 7.45%);
-	--color-blue-925: hsl(215deg 96.79% 12.15%);
-
-	--tw-prose-headings: var(--color-blue-950);
-	--tw-prose-body: var(--color-blue-925);
-}
-
 .prose p + hr + h2 {
 	padding-top: 10px;
 }
