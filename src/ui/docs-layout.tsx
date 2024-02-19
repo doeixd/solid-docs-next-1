@@ -71,7 +71,7 @@ export const DocsLayout: ParentComponent = (props) => {
 					</Show>
 					<Show when={titles().title}>
 						{(t) => (
-							<h1 class="prose-headings text-[2.85rem] text-blue-950 tracking-wider dark:text-white mb-[24px]">
+							<h1 class="prose-headings text-[2.85rem] text-blue-950 tracking-wide dark:text-white mb-[24px]">
 								{t()}
 							</h1>
 						)}

@@ -10,7 +10,7 @@ html {
 	scroll-padding-top: 6rem;
 }
 
-html.light article {
+html.light article .prose {
 	--color-blue-950: hsl(223.64deg 57.89% 7.45%);
 	--color-blue-925: hsl(215deg 96.79% 12.15%);
 
