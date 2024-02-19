@@ -11,7 +11,7 @@ import {
 const styles = {
 	info: {
 		container:
-			"bg-emerald-500/10 border-emerald-500 dark:border-emerald-400 dark:bg-emerald-800/20 dark:border-emerald-900 [&>p]:text-emerald-900 [&>li]:text-emerald-900",
+			"bg-emerald-500/10 border-emerald-500 dark:border-emerald-400 dark:bg-emerald-800/20 dark:border-emerald-900 [& p]:text-emerald-900 [& li]:text-emerald-900",
 		title: "text-emerald-900 dark:text-emerald-300",
 	},
 	tip: {
