@@ -43,7 +43,7 @@ export function Pagination(props: Pagination) {
 								Previous
 							</span>
 							<span
-								class="w-max flex text-lg items-center leading-tight gap-x-1 text-base font-medium text-blue-925 group-hover:text-blue-300 group-hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-300 flex-row-reverse no-underline"
+								class="w-max flex text-lg items-center leading-tight gap-x-1 text-base font-medium text-blue-925 group-hover:text-blue-300 group-hover:text-blue-700 dark:text-slate-300 dark:group-hover:text-blue-300 flex-row-reverse no-underline"
 							>
 								{entry().title}
 							</span>

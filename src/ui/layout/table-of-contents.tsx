@@ -46,7 +46,7 @@ export const TableOfContents: Component = () => {
 								"text-blue-700 dark:text-blue-300 font-semibold dark:hover:text-slate-300":
 									currentSection() === "",
 							}}
-							class="no-underline hover:font-semibold hover:text-slate-700 tracking-[0.3px] text-blue-350 dark:text-slate-300"
+							class="no-underline hover:font-semibold hover:text-blue-700 tracking-[0.3px] text-blue-350 dark:text-slate-300"
 						>
 							Overview
 						</a>
