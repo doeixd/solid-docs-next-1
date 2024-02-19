@@ -163,7 +163,7 @@ export default {
 	li: (props: ParentProps) => (
 		<li
 			{...props}
-			class="mb-2 marker:text-slate-600 dark:marker:text-slate-300 text-blue-925 dark:text-blue-50"
+			class="mb-2 marker:text-slate-600 dark:marker:text-slate-300 text-blue-925 dark:text-blue-50 group-[.callout]:text-inherit"
 		>
 			{props.children}
 		</li>
