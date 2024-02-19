@@ -156,7 +156,7 @@ export default {
 		}
 	},
 	p: (props: ParentProps) => (
-		<p {...props} class="my-4">
+		<p {...props} class="my-4 text-blue-925 dark:text-slate-800">
 			{props.children}
 		</p>
 	),
