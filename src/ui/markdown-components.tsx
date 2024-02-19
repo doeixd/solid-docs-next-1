@@ -156,14 +156,14 @@ export default {
 		}
 	},
 	p: (props: ParentProps) => (
-		<p {...props} class="my-4 text-blue-925 dark:text-slate-800">
+		<p {...props} class="my-4 text-blue-925 dark:text-blue-100">
 			{props.children}
 		</p>
 	),
 	li: (props: ParentProps) => (
 		<li
 			{...props}
-			class="mb-2 marker:text-slate-600 dark:marker:text-slate-300 text-blue-925 dark:text-slate-800"
+			class="mb-2 marker:text-slate-600 dark:marker:text-slate-300 text-blue-925 dark:text-slate-100"
 		>
 			{props.children}
 		</li>
